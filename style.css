@@ -1,0 +1,68 @@
+h1{
+    text-align: center;
+    text-decoration-line: underline;
+    font-style: oblique;
+    font-size: 13mm;
+    color: ivory;
+    transition: transform 0.5s;
+    }
+h1:hover{
+    transform: translateY(-10px);
+}    
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2016/10/29/10/12/purple-1780371_960_720.png");
+    background-position: center;
+    background-size: cover;
+}
+h2{text-decoration-line: underline;
+    font-size: 11mm;
+    text-align: left;
+    color: ivory;
+    font-style: oblique;
+    transition: transform 0.5s;
+    padding-right: 4%;
+    padding-left: 4%;
+}
+h2:hover{
+    transform: translateY(-10px);
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-line: underline;
+    font-size: 9mm;
+    text-align: left;
+    font-style: oblique;
+    color: ivory;
+    transition: transform 0.5s;
+    padding-right: 4%;
+    padding-left: 4%;
+}
+h3:hover{
+    transform: translateY(-10px);
+}
+p{
+    font-family: serif;
+    color: ivory;
+    font-size: 6mm;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+ul{
+    font-family: serif ;
+    font-size: 6mm;
+    color: ivory;
+    outline-color: rgb(166, 158, 173);
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+img{
+    padding-left: 30%;
+    padding-right: 30%;
+    margin: 10px 15px;
+    transition: transform 0.5s;
+}
+img:hover{
+    transform: translateY(-10px);
+
+}

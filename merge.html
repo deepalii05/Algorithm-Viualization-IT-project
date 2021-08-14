@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merge sort</title>
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+    <h1>MERGE SORT</h1>
+    <p>Merge sort is a divide and conquer algorithm .It is based on the idea of dividing the unsorted array into several sub-array and until each sub-array consists of a single element and merging those sub-array in such a way that results into a sorted aray.The process step of merge sort can be summarized as follows: </p>
+    <div class="Process steps:">
+        <h2>Process steps:</h2>
+        <ol>
+            <ul>
+                <li>Divide:Divide the unsorted array into several sub-array until each sub-array contains only single element.</li>
+                <li>Merge:Merge the sub-arrays in such way that results into sorted array and merge until achieves the original array.</li>
+                <li>Merging technique:The first element of the two sub-arrays is considered and compared.For ascending order sorting,the element with the smaller value is taken from the sub-array and becomes a new element of the sorted array. This process is repeated until both sub-array are emptied and the merged array becomes sorted array.</li>
+            </ul>
+        </ol>
+    </div>
+    <img 
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNZ4Xb22sij2m8IKLF49E6HzIB8oA8Yr79pw&usqp=CAU"
+    width="300"
+    >
+    <h3>EXAMPLE:</h3>
+    <p>To understand the merge sort ,lets consider an unsorted array[4,9,-4] and discuss each step taken to sort the array in ascending order.</p>
+    <p>At the first step,the array[4,9,-4] is divided into two sub-array contains[4,9] and second sub-array contains[-4].As the number of element in the first sub-array is greater than one,it is further divided into sub-arrays conditiong of elements [4][9]respectively.As the number of elements in all sub-arrays is one ,hence the further dividing of the array can not be done.</p>
+    <p>In the merging process, the sub-arrays formed in the last step are combined together using the process mentioned above to form a sorted array.First,[4]and [9] sub-arrays are merged together to form a sorted sub-array [4,9].Then [4,9] and [-4] sub-arrays are merged together to form final sorted array[-4,4,9].  </p>
+    
+    
+</body>
+</html>
